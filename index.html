@@ -9,8 +9,7 @@
 </head>
 
 <body>
-
-    <form>
+    <form onsubmit="submitBtn(event)">
         <div class="main">
             <div class="left">
                 <div class="Signup">
@@ -37,29 +36,29 @@
                     <div class="all-inputs">
                         <label class="fullname">
                             <i class="fa-slab-press fa-regular fa-user"></i>
-                            <input type="text" name="fullname" id="fullname" placeholder="Enter Full Name"
-                                maxlength="20" required>
+                            <input type="text" name="fullname" id="fullname" autocomplete="name"
+                                placeholder="Enter Full Name" maxlength="20">
                         </label>
                         <label class="email">
                             <i class="fa-solid fa-envelopes-bulk"></i>
-                            <input type="email" name="email" id="email" placeholder="Enter E-mail" maxlength="30"
-                                required>
+                            <input type="email" name="email" id="email" autocomplete="username"
+                                placeholder="Enter E-mail" maxlength="30">
                         </label>
                         <label class="password">
                             <i class="fa-solid fa-lock"></i>
-                            <input type="password" name="password" id="password" placeholder="Enter password"
-                                maxlength="30" required>
+                            <input type="password" id="password" autocomplete="new-password"
+                                placeholder="Enter password">
                         </label>
                         <label class="password">
                             <i class="fa-solid fa-lock"></i>
-                            <input type="password" name="password" id="re-password" placeholder="Re-Enter password"
-                                maxlength="30" required>
+                            <input type="password" id="re-password" autocomplete="new-password"
+                                placeholder="R-Enter password">
                         </label>
                         <div class="submit-btn">
                             <button type="submit">Sign Up</button>
                             <div>Or</div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -74,6 +73,8 @@
     <!-- font Awsome -->
     <script src="https://kit.fontawesome.com/f882a661c8.js" crossorigin="anonymous"></script>
     <!-- JavaScript -->
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
