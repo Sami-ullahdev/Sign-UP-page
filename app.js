@@ -21,23 +21,36 @@ function submitBtn(e) {
 
     if (fullanme.value.trim() == "") {
         sweetAlert2("Plase enter You Full Name")
+        return
     }
 
     if (email.value.trim() == "") {
         sweetAlert2("Plase enter You E-mail")
+        return
     }
 
     if (pass.value.trim() == "") {
         sweetAlert2("Please Enter a Password!")
+        return
     }
 
-    if (pass.value.lenght <= 7) {
+    if (pass.value.length <= 7) {
         sweetAlert2("Please Enter at least 8 Characters.")
+        return
     }
 
-    if(pass != repass){
+    if(pass.value !== repass.value){
         sweetAlert2("Please Enter The Same Password")
+        return
     }
 
-    
+    Swal.fire({
+        title: "Congratulations!",
+        icon: "success",
+        draggable: true
+    });
+        
+    setTimeout(function () {
+        window.location.href = "dashboard.html"
+    }, 2000)
 }
