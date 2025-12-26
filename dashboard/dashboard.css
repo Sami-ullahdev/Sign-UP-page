@@ -5,6 +5,158 @@
 }
 
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #B6C4D1;
-background: linear-gradient(167deg, rgba(182, 196, 209, 1) 0%, rgba(182, 196, 209, 1) 20%, rgba(222, 215, 215, 0.57) 50%, rgba(182, 196, 209, 1) 80%, rgba(224, 224, 224, 1) 100%);
+    padding: 20px;
+    background: linear-gradient(167deg, rgba(182, 196, 209, 1) 0%, rgba(182, 196, 209, 1) 20%, rgba(222, 215, 215, 0.57) 50%, rgba(182, 196, 209, 1) 80%, rgba(224, 224, 224, 1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+}
+
+.a1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.weight-food {
+    display: flex;
+    gap: 15px;
+}
+
+.weight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 14px;
+    width: 180px;
+    gap: 25px;
+}
+
+.weight p {
+    font-size: small;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 14px;
+    width: 375px;
+    height: 250px;
+}
+
+.heart-lung {
+    display: flex;
+    gap: 12px;
+}
+
+.heart {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 14px;
+    width: 180px;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.heart-icon {
+    transform: rotate(215deg);
+    float: right;
+}
+
+.heart img {
+    margin: 0 auto;
+}
+
+.herat-green-div {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.heart-text {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.lung {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 14px;
+    width: 180px;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    gap: 28px;
+}
+
+.lung img {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.a2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.big-heart {
+    display: flex;
+    flex-direction: column;
+}
+
+.heart-rate {
+    display: flex;
+    padding: 6px 15px;
+    border-radius: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    width: 300px;
+    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-top: -30px;
+    gap: 90px;
+    align-items: center;
+}
+
+.sleep-blood-etc {
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    border-radius: 14px;
+}
+
+.heart-human {
+    display: flex;
+    gap: 20px;
+}
+
+.human {
+    width: 180px;
+    height: 390px;
+    padding: 20px;
+    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 14px;
 }

@@ -51,6 +51,6 @@ function submitBtn(e) {
     });
         
     setTimeout(function () {
-        window.location.href = "dashboard.html"
+        window.location.href = "./dashboard/dashboard.html"
     }, 2000)
 }
