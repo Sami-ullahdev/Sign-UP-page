@@ -180,8 +180,3 @@ body {
     align-items: center;
     gap: 8px;
 }
-
-.blood-temperature-rate {
-    display: flex;
-    gap: 10px   ;
-}
