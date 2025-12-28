@@ -130,22 +130,12 @@ body {
     padding: 6px 15px;
     border-radius: 14px;
     border: 1px solid rgba(0, 0, 0, 0.144);
-    width: 300px;
+    width: 320px;
     background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     margin-top: -30px;
-    gap: 90px;
+    gap: 110px;
     align-items: center;
-}
-
-.sleep-blood-etc {
-    width: 500px;
-    height: 200px;
-    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    border: 1px solid rgba(0, 0, 0, 0.329);
-    border-radius: 14px;
-    padding: 10px;
 }
 
 .heart-human {
@@ -162,13 +152,36 @@ body {
     border-radius: 14px;
 }
 
+.sleep-blood-etc {
+    width: 525px;
+    height: 200px;
+    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    border-radius: 14px;
+    padding: 10px;
+}
+
+
 .blood {
     display: flex;
+    flex-direction: column;
     border-radius: 14px;
     border: 1px solid rgba(0, 0, 0, 0.144);
     width: 160px;
     background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     gap: 20px;
+    padding: 10px;
+}
+
+.blood-text-disply {
+    display: flex;
     align-items: center;
+    gap: 8px;
+}
+
+.blood-temperature-rate {
+    display: flex;
+    gap: 10px   ;
 }
