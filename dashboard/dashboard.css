@@ -8,9 +8,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #B6C4D1;
+    background: #2BC0E4;
     padding: 20px;
-    background: linear-gradient(167deg, rgba(182, 196, 209, 1) 0%, rgba(182, 196, 209, 1) 20%, rgba(222, 215, 215, 0.57) 50%, rgba(182, 196, 209, 1) 80%, rgba(224, 224, 224, 1) 100%);
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -37,15 +36,23 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 12px;
-    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
+    color: #fff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background: #198450 ;
     border-radius: 14px;
     width: 180px;
     gap: 25px;
+    position: relative;
 }
 
 .weight p {
     font-size: small;
+}
+
+.food-img {
+    right: 10px;
+    top: 10px;
+    position: absolute;
 }
 
 .steps {
@@ -53,7 +60,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 12px;
-    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
+    background: #fff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     border-radius: 14px;
     width: 375px;
@@ -104,8 +111,8 @@ body {
     padding: 12px;
     border-radius: 14px;
     width: 180px;
+    background: #fff;
     border: 1px solid rgba(0, 0, 0, 0.356);
-    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     gap: 28px;
 }
@@ -132,7 +139,7 @@ body {
     border-radius: 14px;
     border: 1px solid rgba(0, 0, 0, 0.144);
     width: 320px;
-    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
+    background-color: #fff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     margin-top: -30px;
     gap: 110px;
@@ -152,7 +159,7 @@ body {
     width: 180px;
     height: 390px;
     padding: 20px;
-    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
+    background: #fff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     border-radius: 14px;
 }
@@ -166,8 +173,8 @@ body {
     flex-direction: column;
     gap: 10px;
     width: 525px;
+    background-color: #e6e6e6;
     height: 210px;
-    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     border: 1px solid rgba(0, 0, 0, 0.329);
     border-radius: 14px;
@@ -181,7 +188,7 @@ body {
     border-radius: 14px;
     border: 1px solid rgba(0, 0, 0, 0.144);
     width: 160px;
-    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
+    background-color: #fff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     gap: 20px;
     padding: 10px;
@@ -196,8 +203,8 @@ body {
 
 .sleep {
     width: 500px;
+    background-color: #fff;
     border-radius: 8px;
-    background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     padding: 10px 15px;
     border: 1px solid rgba(0, 0, 0, 0.144);
@@ -209,7 +216,7 @@ body {
     justify-content: center;
     width: 200px;
     height: 12px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 

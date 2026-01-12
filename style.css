@@ -5,8 +5,7 @@
 }
 
 body {
-    background: #B6C4D1;
-background: linear-gradient(167deg, rgba(182, 196, 209, 1) 0%, rgba(182, 196, 209, 1) 20%, rgba(222, 215, 215, 0.57) 50%, rgba(182, 196, 209, 1) 80%, rgba(224, 224, 224, 1) 100%);
+    background: #2BC0E4;
 }
 
 
@@ -79,7 +78,7 @@ background: linear-gradient(167deg, rgba(182, 196, 209, 1) 0%, rgba(182, 196, 20
     outline: none;
     flex: 1;
     font-size: 14px;
-    color: #000000;
+    color: #ffffff;
     background: transparent;
     margin-top: 30px;
     width: 300px;
