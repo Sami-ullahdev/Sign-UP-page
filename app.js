@@ -34,7 +34,7 @@ function submitBtn(e) {
         return
     }
 
-    if (pass.value.length <= 7) {
+    if (pass.value.length <= 8) {
         sweetAlert2("Please Enter at least 8 Characters.")
         return
     }
