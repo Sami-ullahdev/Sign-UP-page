@@ -51,6 +51,7 @@ body {
 .steps {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 12px;
     background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -144,12 +145,20 @@ body {
 }
 
 .human {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
     width: 180px;
     height: 390px;
     padding: 20px;
     background: linear-gradient(133deg, rgba(223, 227, 235, 1) 100%, rgba(207, 198, 198, 1) 0%);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     border-radius: 14px;
+}
+
+.human img {
+    width: 150px;
 }
 
 .sleep-blood-etc {
